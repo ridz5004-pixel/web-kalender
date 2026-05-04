@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalender Costum-Ku - Abadikan Momen Spesial </title>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #0f0f11;
+            color: #f3f4f6;
+            overflow-x: hidden;
+        }
+
+        .gradient-text {
+            background: linear-gradient(to right, #fbbf24, #f59e0b);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .glass-card {
+            background: rgba(255, 255, 255, 0.03);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="fixed inset-0 z-0 pointer-events-none overflow-hidden">
+        <div class="absolute top-[0%] -left-[15%] w-[50vw] h-[50vh] bg-purple-600 rounded-full mix-blend-screen filter blur-[150px] opacity-40"></div>
+        <div class="absolute top-[10%] -right-[15%] w-[50vw] h-[50vh] bg-blue-600 rounded-full mix-blend-screen filter blur-[150px] opacity-40"></div>
+        <div class="absolute bottom-[0%] -left-[10%] w-[50vw] h-[50vh] bg-green-600 rounded-full mix-blend-screen filter blur-[150px] opacity-30"></div>
+        <div class="absolute bottom-[10%] -right-[10%] w-[50vw] h-[50vh] bg-red-600 rounded-full mix-blend-screen filter blur-[150px] opacity-30"></div>
+    </div>
+
+    <div class="relative z-10">
+        
+        <section class="min-h-screen flex flex-col justify-center items-center px-4 pt-20 pb-12">
+            
+            <div data-aos="fade-down" data-aos-duration="1200" class="max-w-4xl w-full text-left">
+                <h1 class="text-4xl md:text-5xl lg:text-6xl font-extrabold mb-6 leading-tight">
+                    Abadikan Momen Spesial Anda <br>
+                    <span class="text-gray-300 font-semibold text-xl md:text-4xl lg:text-5xl block my-2">dengan</span>
+                    <span class="gradient-text text-4xl md:text-5xl lg:text-7xl block mt-2">Kalender CostumKu</span>
+                </h1>
+                
+                <p class="text-gray-300 max-w-2xl text-base md:text-xl font-light mb-10">
+                    Kalender costum dari foto pilihanmu jadikan setiap halaman penuh cerita.
+                </p>
+            </div>
+
+            <div data-aos="fade-up" data-aos-delay="200" class="w-full max-w-2xl mx-auto mb-12 rounded-[30px] overflow-hidden border border-white/10 shadow-[0_10px_40px_rgba(0,0,0,0.5)] aspect-[4/3] relative group bg-gray-800 flex items-center justify-center">
+                <img src="Foto_Utama.png" alt="Foto Utama" class="w-full h-full object-cover group-hover:scale-105 transition duration-700 z-10 relative">
+                <span class="absolute text-gray-500 font-bold tracking-widest z-0 text-center px-4">FOTO BANNER (4:3)</span>
+            </div>
+
+            <div class="flex flex-col sm:flex-row justify-center gap-6 mb-16 w-full" data-aos="zoom-in" data-aos-delay="400">
+                <a href="https://wa.me/6285820900206?text=Halo%20Ridho,%20saya%20ingin%20pesan%20Kalender%20Custom!" target="_blank" class="bg-yellow-500 hover:bg-yellow-600 text-gray-900 font-bold py-4 px-10 rounded-full transition transform hover:scale-105 shadow-[0_0_25px_rgba(245,158,11,0.4)] text-center">
+                    Pesan Sekarang
+                </a>
+                <a href="#produk" class="bg-transparent border-2 border-yellow-500 hover:bg-yellow-500 hover:text-gray-900 text-yellow-500 font-bold py-4 px-10 rounded-full transition shadow-lg text-center">
+                    Lihat Produk
+                </a>
+            </div>
+
+            <div class="flex flex-wrap justify-center gap-6 w-full" data-aos="fade-up" data-aos-delay="600">
+                <div class="glass-card p-6 rounded-3xl w-48 flex flex-col items-center group hover:border-yellow-500 transition-all duration-500 shadow-xl">
+                    <div class="bg-yellow-500/20 p-4 rounded-2xl mb-4 group-hover:scale-110 transition">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-yellow-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M17 9V7a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2m2 4h10a2 2 0 002-2v-6a2 2 0 00-2-2H9a2 2 0 00-2 2v6a2 2 0 002 2zm7-5a2 2 0 11-4 0 2 2 0 014 0z" />
+                        </svg>
+                    </div>
+                    <p class="text-[10px] text-gray-400 uppercase tracking-widest mb-1">Mulai dari</p>
+                    <p class="text-2xl font-black text-white">Rp 20k</p>
+                </div>
+
+                <div class="glass-card p-6 rounded-3xl w-48 flex flex-col items-center group hover:border-green-500 transition-all duration-500 shadow-xl">
+                    <div class="bg-green-500/20 p-4 rounded-2xl mb-4 group-hover:scale-110 transition">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-green-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 4v1m6 11h2m-6 0h-2v4m0-11v3m0 0h.01M12 12h4.01M16 20h4M4 12h4m12 0h.01M5 8h2a1 1 0 001-1V5a1 1 0 00-1-1H5a1 1 0 00-1 1v2a1 1 0 001 1zm12 0h2a1 1 0 001-1V5a1 1 0 00-1-1h-2a1 1 0 00-1 1v2a1 1 0 001 1zM5 20h2a1 1 0 001-1v-2a1 1 0 00-1-1H5a1 1 0 00-1 1v2a1 1 0 001 1z" />
+                        </svg>
+                    </div>
+                    <p class="text-[10px] text-gray-400 uppercase tracking-widest mb-1">Metode</p>
+                    <p class="text-xl font-bold text-white">QRIS & Cash</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="produk" class="py-24 px-4 max-w-5xl mx-auto">
+            <div class="text-center mb-16" data-aos="fade-up">
+                <h2 class="text-3xl font-bold mb-4">Pilihan Produk Kami</h2>
+                <div class="w-20 h-1 bg-gradient-to-r from-yellow-500 to-orange-500 mx-auto rounded-full"></div>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-10">
+                <div class="glass-card rounded-[30px] overflow-hidden group hover:border-yellow-500 transition-all duration-500" data-aos="fade-right">
+                    <div class="bg-gray-800 h-64 flex items-center justify-center relative overflow-hidden">
+                        <img src="Kalender_Meja.png" alt="Kalender Meja" class="w-full h-full object-cover group-hover:scale-110 transition duration-700 z-10 relative">
+                        <span class="absolute text-gray-500 font-bold tracking-wider z-0">FOTO KALENDER MEJA</span>
+                        <div class="absolute inset-0 bg-yellow-500/5 opacity-0 group-hover:opacity-100 transition z-20"></div>
+                    </div>
+                    <div class="p-8">
+                        <h3 class="text-2xl font-bold mb-5 text-yellow-400">Kalender Meja</h3>
+                        <ul class="space-y-3 mb-8 text-gray-300 text-sm">
+                            <li class="flex items-center"><span class="text-yellow-500 mr-3 text-lg">✔</span> 1-12 bulan lengkap</li>
+                            <li class="flex items-center"><span class="text-yellow-500 mr-3 text-lg">✔</span> Desain Custom via Canva</li>
+                            <li class="flex items-center"><span class="text-yellow-500 mr-3 text-lg">✔</span> Ringkas & Elegan</li>
+                            <li class="flex items-center"><span class="text-yellow-500 mr-3 text-lg">✔</span> Cocok untuk meja kerja</li>
+                        </ul>
+                        <a href="https://wa.me/6285820900206" class="block text-center bg-white text-black hover:bg-yellow-500 font-bold py-4 rounded-xl transition duration-300">
+                            Pesan Kalender Meja
+                        </a>
+                    </div>
+                </div>
+
+                <div class="glass-card rounded-[30px] overflow-hidden group hover:border-blue-500 transition-all duration-500" data-aos="fade-left">
+                    <div class="bg-gray-800 h-64 flex items-center justify-center relative overflow-hidden">
+                        <img src="Kalender A3.png" alt="Kalender A3" class="w-full h-full object-cover group-hover:scale-110 transition duration-700 z-10 relative">
+                        <span class="absolute text-gray-500 font-bold tracking-wider z-0">FOTO KALENDER A3</span>
+                        <div class="absolute inset-0 bg-blue-500/5 opacity-0 group-hover:opacity-100 transition z-20"></div>
+                    </div>
+                    <div class="p-8">
+                        <h3 class="text-2xl font-bold mb-5 text-blue-400">Kalender Dinding A3</h3>
+                        <ul class="space-y-3 mb-8 text-gray-300 text-sm">
+                            <li class="flex items-center"><span class="text-blue-500 mr-3 text-lg">✔</span> 1-12 bulan lengkap</li>
+                            <li class="flex items-center"><span class="text-blue-500 mr-3 text-lg">✔</span> Desain Custom via Canva</li>
+                            <li class="flex items-center"><span class="text-blue-500 mr-3 text-lg">✔</span> Ukuran A3 besar</li>
+                            <li class="flex items-center"><span class="text-blue-500 mr-3 text-lg">✔</span> Material premium glossy</li>
+                        </ul>
+                        <a href="https://wa.me/6285820900206" class="block text-center bg-white text-black hover:bg-blue-500 hover:text-white font-bold py-4 rounded-xl transition duration-300">
+                            Pesan Kalender A3
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-20 bg-black/20">
+            <div class="max-w-5xl mx-auto px-4">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl font-bold mb-2">Tim Kami</h2>
+                    <p class="text-gray-500 text-sm">Di balik layar desain kalender custom Anda</p>
+                </div>
+                
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+                    <div class="text-center group" data-aos="zoom-in" data-aos-delay="100">
+                        <div class="w-20 h-20 glass-card rounded-full mx-auto mb-3 p-1 group-hover:border-yellow-500 transition duration-300 relative overflow-hidden flex items-center justify-center bg-gray-800">
+                            <img src="URL_FOTO_HILMI.jpg" alt="Hilmi" class="w-full h-full object-cover rounded-full z-10 relative">
+                            <span class="absolute font-bold text-xl z-0">H</span>
+                        </div>
+                        <h3 class="font-bold text-sm">Hilmi Hawari</h3>
+                        <p class="text-[10px] text-yellow-500 uppercase tracking-widest mt-1">Ketua Tim & PM</p>
+                    </div>
+                    <div class="text-center group" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="w-20 h-20 glass-card rounded-full mx-auto mb-3 p-1 group-hover:border-purple-500 transition duration-300 relative overflow-hidden flex items-center justify-center bg-gray-800">
+                            <img src="URL_FOTO_ADAM.jpg" alt="Adam" class="w-full h-full object-cover rounded-full z-10 relative">
+                            <span class="absolute font-bold text-xl z-0">A</span>
+                        </div>
+                        <h3 class="font-bold text-sm">Adam Sanjaya</h3>
+                        <p class="text-[10px] text-purple-500 uppercase tracking-widest mt-1">Design & Package</p>
+                    </div>
+                    <div class="text-center group" data-aos="zoom-in" data-aos-delay="300">
+                        <div class="w-20 h-20 glass-card rounded-full mx-auto mb-3 p-1 border border-yellow-500 shadow-[0_0_15px_rgba(234,179,8,0.3)] relative overflow-hidden flex items-center justify-center bg-yellow-500 text-black">
+                            <img src="URL_FOTO_RIDHO.jpg" alt="Ridho" class="w-full h-full object-cover rounded-full z-10 relative">
+                            <span class="absolute font-bold text-xl z-0">R</span>
+                        </div>
+                        <h3 class="font-bold text-sm">Ridho</h3>
+                        <p class="text-[10px] text-yellow-500 font-bold uppercase tracking-widest mt-1">UI/UX Designer</p>
+                    </div>
+                    <div class="text-center group" data-aos="zoom-in" data-aos-delay="400">
+                        <div class="w-20 h-20 glass-card rounded-full mx-auto mb-3 p-1 group-hover:border-blue-500 transition duration-300 relative overflow-hidden flex items-center justify-center bg-gray-800">
+                            <img src="URL_FOTO_ADIT.jpg" alt="Adit" class="w-full h-full object-cover rounded-full z-10 relative">
+                            <span class="absolute font-bold text-xl z-0">A</span>
+                        </div>
+                        <h3 class="font-bold text-sm">Aditya Saparinur</h3>
+                        <p class="text-[10px] text-blue-500 uppercase tracking-widest mt-1">Design & Consult</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-24 px-4">
+            <div class="max-w-5xl mx-auto">
+                <h2 class="text-3xl font-bold text-center mb-12" data-aos="fade-up">Testimoni Pelanggan</h2>
+                <div class="grid md:grid-cols-3 gap-6 mb-24">
+                    <div class="glass-card p-8 rounded-3xl" data-aos="fade-up" data-aos-delay="100">
+                        <div class="text-yellow-400 mb-3">⭐⭐⭐⭐⭐</div>
+                        <p class="text-gray-300 italic text-sm">"Hasil print tajam, desainnya sesuai ekspektasi. Keren banget tim SMKN 1!"</p>
+                    </div>
+                    <div class="glass-card p-8 rounded-3xl" data-aos="fade-up" data-aos-delay="200">
+                        <div class="text-yellow-400 mb-3">⭐⭐⭐⭐⭐</div>
+                        <p class="text-gray-300 italic text-sm">"Gak nyangka bisa custom pakai foto sendiri. Mejaku jadi asik dilihat."</p>
+                    </div>
+                    <div class="glass-card p-8 rounded-3xl" data-aos="fade-up" data-aos-delay="300">
+                        <div class="text-yellow-400 mb-3">⭐⭐⭐⭐⭐</div>
+                        <p class="text-gray-300 italic text-sm">"Sangat rekomended! Pelayanannya cepet dan hasilnya premium."</p>
+                    </div>
+                </div>
+
+                <div class="glass-card p-8 md:p-12 rounded-[40px] text-center max-w-4xl mx-auto" data-aos="zoom-in">
+                    <h2 class="text-3xl font-bold mb-4">Lokasi Kami</h2>
+                    <p class="text-gray-400 text-sm md:text-base mb-8">
+                        Kami berlokasi di <strong class="text-white">SMK Negeri 1 Sambas, Kalimantan Barat (Kampus 2)</strong>.
+                    </p>
+                    
+                    <div class="h-64 bg-gray-900 rounded-2xl mb-8 overflow-hidden border border-white/10">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.330896424574!2d109.30335017424608!3d1.3378036986494793!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31e49635031b67cf%3A0xc3c94f57c0f0e0c8!2sSMK%20Negeri%201%20Sambas!5e0!3m2!1sid!2sid!4v1714700000000!5m2!1sid!2sid" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+
+                    <a href="https://wa.me/6285820900206" class="inline-flex items-center gap-2 bg-green-500 hover:bg-green-600 text-white font-bold py-4 px-10 rounded-full transition shadow-[0_5px_20px_rgba(34,197,94,0.3)]">
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51a12.8 12.8 0 0 0-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z"/></svg>
+                        Hubungi via WhatsApp
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <footer class="py-8 text-center text-gray-600 text-sm border-t border-white/5 bg-black/50 backdrop-blur-sm">
+            <p>© 2026 Kalender Costum Ku - SMK Negeri 1 Sambas</p>
+        </footer>
+
+    </div>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({ 
+            once: true,
+            duration: 800
+        });
+    </script>
+</body>
+</html>
